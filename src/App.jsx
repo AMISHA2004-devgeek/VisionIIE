@@ -1,26 +1,24 @@
 import React from 'react';
-import { AboutUs, BlogAndReports, Changemakers, ContactUs, Events, FeaturedArticles, HeroSection, Media, OurMission, Partners, WhatDrivesUs, WhatWeDo } from './components';
+import { AboutUs, Approach, Changemakers, ContactUs, Events, HeroSection, Insights, Media, OurMission, Partners } from './components';
 
 
 function App() {
   return (
     <div>
       <HeroSection />
-
       <OurMission />
 
       {/* Who we are */}
       <AboutUs />
-      <WhatDrivesUs />
-
       <Partners />
-      <WhatWeDo />
+
+      {/* What we do */}
+      <Approach />
       <Events />
       <Changemakers />
 
       {/* Insights */}
-      <BlogAndReports />
-      <FeaturedArticles />
+      <Insights />
       <Media />
 
       <ContactUs />

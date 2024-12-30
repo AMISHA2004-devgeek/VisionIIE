@@ -1,7 +1,7 @@
 import React from 'react';
 
-const BlogAndReports = () => {
+const Insights = () => {
   return <div>Blog and Reports</div>;
 };
 
-export default BlogAndReports;
+export default Insights;

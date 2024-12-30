@@ -1,34 +1,33 @@
 // Single point for Components
+
+// Vision IIE
 import HeroSection from "./HeroSection";
 import OurMission from "./OurMission";
 
 // Who we are section
 import AboutUs from "./WhoWeAre/AboutUs";
-import WhatDrivesUs from "./WhoWeAre/WhatDrivesUs";
+import Partners from "./WhoWeAre/Partners";
 
-import Partners from "./Partners";
-import WhatWeDo from "./WhatWeDo";
-import Events from "./Events";
-import Changemakers from "./Changemakers";
+// What we do section
+import Approach from "./WhatWeDo/Approach";
+import Events from "./WhatWeDo/Events";
+import Changemakers from "./WhatWeDo/Changemakers";
 
 // Insights section
-import BlogAndReports from "./Insights/BlogAndReports";
-import FeaturedArticles from "./Insights/FeaturedArticles";
+import Insights from "./Insights/Insights";
 import Media from "./Insights/Media";
 
 import ContactUs from "./ContactUs";
 
 export {
-  HeroSection,
-  OurMission,
-  AboutUs,
-  WhatDrivesUs,
-  Partners,
-  WhatWeDo,
-  Events,
-  Changemakers,
-  BlogAndReports,
-  FeaturedArticles,
-  Media,
-  ContactUs,
-};
+    HeroSection,
+    OurMission,
+    AboutUs,
+    Partners,
+    Approach,
+    Events,
+    Changemakers,
+    Insights,
+    Media,
+    ContactUs,
+}
