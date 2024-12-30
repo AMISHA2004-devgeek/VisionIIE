@@ -5,7 +5,7 @@ const ImpactCard = ({ icon: Icon, count, text }) => (
   <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
     <div className='flex justify-center items-center gap-1 mb-2 w-fit'>
     <Icon className="w-8 h-8 text-gray-800" />
-    <div className="font-serif text-3xl font-medium mb-1">{count}</div>
+    <div className="font-serif text-3xl font-medium">{count}</div>
     </div>
     <p className="text-gray-600">{text}</p>
   </div>
