@@ -89,7 +89,7 @@ const PillarSection = ({ title, items, delay = 0 }) => (
 
 const Approach = () => {
   return (
-    <section className="py-20">
+    <section id="approach" className="py-20">
       <div className="max-w-7xl mx-auto px-4">
         {/* Header */}
         <motion.div 
